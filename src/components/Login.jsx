@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default function Login() {
     const handleClick = () => {
         const clientId = "91940efe086142ab979f20d0eb2b9982";
-        const redireactUrl = "http://localhost:3000/";
+        const redireactUrl = "https://spotify-lookalike.netlify.app/";
         const apiUrl = "https://accounts.spotify.com/authorize";
         const scope = [
             "user-read-email",
@@ -51,5 +51,5 @@ const Container = styled.div`
         color: #49f585;
         font-size: 1.4rem;
         cursor: pointer;
-    }
+   }
 `;
